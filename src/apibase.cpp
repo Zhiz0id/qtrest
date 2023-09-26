@@ -210,7 +210,7 @@ QNetworkReply *APIBase::put(QUrl url, QHttpMultiPart *multiPart)
     connectReplyToErrors(reply);
     return reply;
 }
-
+/*
 QNetworkReply *APIBase::patch(QUrl url)
 {
     QNetworkRequest request(url);
@@ -250,7 +250,7 @@ QNetworkReply *APIBase::patch(QUrl url, QHttpMultiPart *multiPart)
     connectReplyToErrors(reply);
     return reply;
 }
-
+*/
 QNetworkReply *APIBase::deleteResource(QUrl url)
 {
     QNetworkRequest request(url);
